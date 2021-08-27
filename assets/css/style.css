@@ -447,13 +447,13 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  padding: 0;
+  padding: 50px;
   margin-top: 40px;
 }
 
 .about .container {
-  background-color: #f7f8f9;
-  padding: 60px 50px;
+  background-color: #CADFED;
+  padding: 60px 60px;
 }
 
 @media (max-width: 992px) {
