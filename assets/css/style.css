@@ -821,7 +821,8 @@ input[type="date" i] {
 
 /* Form */
 
-input {
+input,
+textarea {
   outline: none;
   margin: 0;
   border: none;
@@ -833,6 +834,11 @@ input {
   font-family: inherit;
 }
 
+textarea {
+  resize: none;
+}
+
+.textarea--style-6,
 .input--style-4 {
   line-height: 50px;
   background: #fafafa;
@@ -843,7 +849,7 @@ input {
   -moz-border-radius: 5px;
   border-radius: 5px;
   padding: 0 20px;
-  font-size: 16px;
+  font-size: 12px;
   color: #666;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
@@ -851,29 +857,34 @@ input {
   transition: all 0.4s ease;
 }
 
-.input--style-4::-webkit-input-placeholder {
+.input--style-4::-webkit-input-placeholder,
+.textarea--style-6::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #666;
 }
 
-.input--style-4:-moz-placeholder {
+.input--style-4:-moz-placeholder,
+.textarea--style-6:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #666;
   opacity: 1;
 }
 
-.input--style-4::-moz-placeholder {
+.input--style-4::-moz-placeholder,
+.textarea--style-6::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #666;
   opacity: 1;
 }
 
-.input--style-4:-ms-input-placeholder {
+.input--style-4:-ms-input-placeholder,
+.textarea--style-6:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #666;
 }
 
-.input--style-4:-ms-input-placeholder {
+.input--style-4:-ms-input-placeholder,
+.textarea--style-6:-ms-input-placeholder {
   /* Microsoft Edge */
   color: #666;
 }
@@ -1140,10 +1151,10 @@ input {
 
 .form-row .name {
   width: 188px;
-  color: #333;
-  font-size: 15px;
-  font-weight: 700;
+  color: #555;
+  font-size: 16px;
   margin-top: 11px;
+  text-transform: capitalize;
 }
 
 .form-row .value {
