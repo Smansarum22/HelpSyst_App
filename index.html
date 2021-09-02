@@ -13,9 +13,14 @@
   <link href="assets/img/title.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="assets/vendor/nouislider/nouislider.min.css">
+
   <!-- Icons font CSS-->
   <link href="assets/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
   <link href="assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+
   <!-- Font special for pages-->
   <link
     href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
@@ -258,6 +263,10 @@
 
       </div>
 
+      <div class="service-helpsyst">
+
+      </div>
+
       <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
           <div class="card card-4">
@@ -361,7 +370,6 @@
           </div>
         </div>
       </div>
-
     </section><!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
@@ -788,6 +796,20 @@
   <script src="assets/vendor/select2/select2.min.js"></script>
   <script src="assets/vendor/datepicker/moment.min.js"></script>
   <script src="assets/vendor/datepicker/daterangepicker.js"></script>
+  <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+  <script src="vendor/jquery-steps/jquery.steps.min.js"></script>
+  <script src="vendor/minimalist-picker/dobpicker.js"></script>
+  <script src="vendor/nouislider/nouislider.min.js"></script>
+  <script src="vendor/wnumb/wNumb.js"></script>
+
+  <script type="text/javascript">
+
+    $(function () {
+      $(".service-helpsyst").load("services.html")
+    });
+
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
