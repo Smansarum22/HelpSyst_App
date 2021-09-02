@@ -453,7 +453,7 @@ section {
 
 .about .container {
   background-color: #CADFED;
-  padding: 60px 60px;
+  padding: 40px 40px;
 }
 
 @media (max-width: 992px) {
@@ -777,7 +777,7 @@ section {
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 0 px;
   border-radius: 4px;
   transition: 0.5s;
   margin: 10px;
@@ -901,9 +901,10 @@ section {
 }
 .row {
   display: block;
-  margin-left: auto;
+  margin-top: -116px;
   margin-right: auto;
 }
+
 .team .container {
   position: relative;
   z-index: 10;
