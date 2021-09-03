@@ -54,7 +54,12 @@
                                 <label for="phone" class="form-label">Phone</label>
                                 <input type="text" name="phone" id="phone" />
                             </div>
-                            <div class="form-date">
+                            <div class="form-group">
+                                <label for="instansi" class="">Instansi</label>
+                                <input type="text" name="instansi" id="instansi" />
+                            </div>
+
+                            <!-- <div class="form-date">
                                 <label for="birth_date" class="form-label">Date of Data</label>
                                 <div class="form-date-group">
                                     <div class="form-date-item">
@@ -70,7 +75,7 @@
                                         <span class="text-input">YYYY</span>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- <div class="form-row txtarea">
                                 <div class="name">Message</div>
                                 <div class="value">
@@ -99,6 +104,17 @@
                         <h2>Distribution Map Display</h2>
                         <p class="desc">This view shows the distribution of data based on the predicted disease</p>
                         <div class="fieldset-content">
+                            <div class="form-row choosenfile">
+                                <div class="name">Upload Data</div>
+                                <div class="value">
+                                    <div class="input-group js-input-file">
+                                        <input class="input-file" type="file" name="file_cv" id="file">
+                                        <label class="label--file" for="file">Choose file</label>
+                                        <span class="input-file__info">No file chosen</span>
+                                    </div>
+                                    <div class="label--desc">Upload the Data here. Max file size 50 MB</div>
+                                </div>
+                            </div>
                             <div class="form-group">
                                 <label for="find_maps" class="form-label">Find your area/village</label>
                                 <div class="form-find">
@@ -140,6 +156,7 @@
                         <h2>Recommended Results</h2>
                         <p class="desc">Based on the results of the following recommendations:</p>
                         <div class="result-recom">
+
 
                         </div>
                     </fieldset>
