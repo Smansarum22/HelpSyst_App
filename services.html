@@ -23,11 +23,10 @@
         <div class="container">
             <form method="POST" id="signup-form" class="signup-form" action="#">
                 <div>
-                    <h3>Personal info</h3>
+                    <h3>Service Requirements</h3>
                     <fieldset>
-                        <h2>Personal information</h2>
-                        <p class="desc">Please enter your infomation and proceed to next step so we can build your
-                            account</p>
+                        <h2>Service Requirements</h2>
+                        <p class="desc">Enter the data needed for the analysis process</p>
                         <div class="fieldset-content">
                             <div class="form-row">
                                 <label class="form-label">Name</label>
@@ -45,14 +44,14 @@
                             <div class="form-group">
                                 <label for="email" class="form-label">Email</label>
                                 <input type="email" name="email" id="email" />
-                                <span class="text-input">Example :<span> Jeff@gmail.com</span></span>
+                                <span class="text-input">Example :<span> helpsyst@company.com</span></span>
                             </div>
                             <div class="form-group">
                                 <label for="phone" class="form-label">Phone</label>
                                 <input type="text" name="phone" id="phone" />
                             </div>
                             <div class="form-date">
-                                <label for="birth_date" class="form-label">Birth Date</label>
+                                <label for="birth_date" class="form-label">Date of Data</label>
                                 <div class="form-date-group">
                                     <div class="form-date-item">
                                         <select id="birth_month" name="birth_month"></select>
@@ -68,9 +67,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label for="ssn" class="form-label">SSN</label>
-                                <input type="text" name="ssn" id="ssn" />
+                            <div class="form-row txtarea">
+                                <div class="name">Message</div>
+                                <div class="value">
+                                    <div class="input-group">
+                                        <textarea class="textarea--style-6" name="message"
+                                            placeholder="Message for recommendations"></textarea>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </fieldset>
