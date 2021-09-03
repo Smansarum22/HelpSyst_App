@@ -472,7 +472,7 @@ input {
     background-color 0.15s ease-out, box-shadow 0.15s ease-out;
 }
 .form-radio-flex input + label img {
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 .form-radio-flex input:checked + label {
@@ -506,21 +506,21 @@ input.error {
   border: 1px solid #f63726;
 }
 
-#find_bank {
+#find_maps {
   padding: 0 55px;
   width: 680px;
   margin-right: 20px;
 }
-#find_bank::-webkit-input-placeholder {
+#find_maps::-webkit-input-placeholder {
   font-weight: 400;
 }
-#find_bank::-moz-placeholder {
+#find_maps::-moz-placeholder {
   font-weight: 400;
 }
-#find_bank:-ms-input-placeholder {
+#find_maps:-ms-input-placeholder {
   font-weight: 400;
 }
-#find_bank:-moz-placeholder {
+#find_maps:-moz-placeholder {
   font-weight: 400;
 }
 
@@ -549,7 +549,7 @@ input.error {
   color: #999;
 }
 
-.choose-bank-desc {
+.choose-maps-desc {
   color: #666;
   margin: 0px;
   padding-top: 30px;
@@ -653,7 +653,7 @@ input.error {
     width: 100%;
   }
 
-  #find_bank {
+  #find_maps {
     width: 100%;
   }
 
@@ -716,7 +716,7 @@ input.error {
     height: 1050px;
   }
 
-  #find_bank {
+  #find_maps {
     margin-bottom: 20px;
   }
 
