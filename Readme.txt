@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Ketua : Wa Ode Putri Wahidah Dani
+Anggota 1 : Maghfirah Tenri Sumpala Zani
+Anggota 2 : Yanuarsyah Fitrah Indra
+Anggota 3 : Nur Imam Masri
 
-Template Name: Scaffold
-Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Dosen Pendamping : Anugrayani Bustamin, S.T., M.T.
