@@ -1,3 +1,6 @@
+# Help Syst
+[helpsyst-ai.tech](https://helpsyst-ai.tech/)
+
 Ketua : Wa Ode Putri Wahidah Dani
 Anggota 1 : Maghfirah Tenri Sumpala Zani
 Anggota 2 : Yanuarsyah Fitrah Indra
