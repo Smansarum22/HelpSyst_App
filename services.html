@@ -32,42 +32,74 @@
                         <h2>Service Requirements</h2>
                         <p class="desc">Enter the data needed for the analysis process</p>
                         <div class="fieldset-content">
+                            <div class="form-group">
+                                <label for="kecamatan" class="form-label">Kecamatan</label>
+                                <input type="kecamatan" name="kecamatan" id="kecamatan" />
+                            </div>
                             <div class="form-row">
-                                <label class="form-label">Name</label>
+                                <label class="form-label">Puskesmas</label>
                                 <div class="form-flex">
                                     <div class="form-group">
-                                        <input type="text" name="first_name" id="first_name" />
-                                        <span class="text-input">First</span>
+                                        <input type="text" name="puskesmas_name" id="puskesmas_name" />
+                                        <span class="text-input">Nama Puskesmas</span>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="last_name" id="last_name" />
-                                        <span class="text-input">Last</span>
+                                        <input type="text" name="tahun_profile" id="tahun_profile" />
+                                        <span class="text-input">Tahun Profile</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="email" class="form-label">Email</label>
                                 <input type="email" name="email" id="email" />
-                                <span class="text-input">Example :<span> helpsyst@company.com</span></span>
                             </div>
-                            <div class="form-group">
-                                <label for="phone" class="form-label">Phone</label>
-                                <input type="text" name="phone" id="phone" />
-                            </div>
-                            <div class="form-group">
-                                <label for="instansi" class="">Instansi</label>
-                                <input type="text" name="instansi" id="instansi" />
-                            </div>
-
-                            <div class="form-row choosenfile">
-                                <div class="name">Upload Data</div>
-                                <div class="value">
-                                    <div class="input-group js-input-file">
-                                        <input class="input-file" type="file" name="file_cv" id="file">
-                                        <label class="label--file" for="file">Choose file</label>
+                            <div class="form-row">
+                                <div class="label--desc">Upload the Data here. Max file size 50 MB</div>
+                                <div class="form-flex">
+                                    <div class="form-row choosenfile">
+                                        <div class="name">Data Indikator Pelayanan Kesehatan</div>
+                                        <div class="value">
+                                            <div class="input-group js-input-file">
+                                                <input class="input-file" type="file" name="file_cv" id="file">
+                                                <label class="label--file" for="file">Choose file</label>
+                                            </div>
+                                        </div>
                                         <span class="input-file__info">No file chosen</span>
                                     </div>
-                                    <div class="label--desc">Upload the Data here. Max file size 50 MB</div>
+                                    <div class="form-row choosenfile">
+                                        <div class="name">Data Kegawatan Masalah</div>
+                                        <div class="value">
+                                            <div class="input-group js-input-file">
+                                                <input class="input-file" type="file" name="file_cv" id="file">
+                                                <label class="label--file" for="file">Choose file</label>
+                                            </div>
+                                        </div>
+                                        <span class="input-file__info">No file chosen</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-flex">
+                                    <div class="form-row choosenfile">
+                                        <div class="name">Data Kemudahan Penanggulangan</div>
+                                        <div class="value">
+                                            <div class="input-group js-input-file">
+                                                <input class="input-file" type="file" name="file_cv" id="file">
+                                                <label class="label--file" for="file">Choose file</label>
+                                            </div>
+                                        </div>
+                                        <span class="input-file__info">No file chosen</span>
+                                    </div>
+                                    <div class="form-row choosenfile">
+                                        <div class="name">Data Ketentuan PEARL Faktor</div>
+                                        <div class="value">
+                                            <div class="input-group js-input-file">
+                                                <input class="input-file" type="file" name="file_cv" id="file">
+                                                <label class="label--file" for="file">Choose file</label>
+                                            </div>
+                                        </div>
+                                        <span class="input-file__info">No file chosen</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -130,8 +162,6 @@
                         <h2>Diagnosis Results</h2>
                         <p class="desc">Based on the results of the following diagnosis:</p>
                         <div class="result-recom">
-
-
                         </div>
                     </fieldset>
                 </div>
